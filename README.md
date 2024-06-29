@@ -53,3 +53,6 @@ I am now certain that the battery is designed in a way as to signal the circuit 
 I decided to go with qianli's ipower pro max to use this with. the tests were a success and the results were promising. however the circuit right now is pretty bulky. i'm trying to reverse engineeer that circuit to be able to recreate and fit it into the battery slot of iphone or the back case of iphone without too much added weight.. here's how i started to reverse engineer it. please note the resistor values are wrong but the IC names are correct. <img width="495" alt="Screenshot 2024-02-02 at 2 36 48 AM" src="https://github.com/manhoosbilli1/Iphone7-batteryless-MOD/assets/36271208/77b22ffa-42b5-41c8-b487-1f8c0d4cd68c">
 
 
+
+# 6/29/2024 Succesfully embedded circuit inside phone
+I removed the battery, used the connector for attaching the power and a ground, and one signal wire that is going to communicate the battery discharge parameters to it. I fit the PCB inside phone just barely finding space for the screen to close. For phones with a larger battery this circuit can fit more easily. i'll be upload an update video soon.
